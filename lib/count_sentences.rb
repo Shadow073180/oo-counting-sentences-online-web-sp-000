@@ -31,6 +31,7 @@ class String
     self.split("."||"?"||"!")
     self.count("."||"?"||"!")
     array.push(self.split("."||"?"||"!"))
+    array.count
 
   end
 
