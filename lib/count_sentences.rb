@@ -21,7 +21,10 @@ class String
   end
 
   def count_sentences
+    array = []
     self.split("."||"?"||"!")
-    binding.pry
+      self.each do |x|
+        array.push(x)
+      end
   end
 end
