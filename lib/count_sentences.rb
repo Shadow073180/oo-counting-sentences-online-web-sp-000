@@ -27,15 +27,9 @@ class String
   end
 
   def count_sentences
-  y =  self.split("."||"?"||"!")
-    i = 1
-  y =  self.each do |x|
-      x.count("."||"?"||"!")
-    i += 1
+  y =  self.split("."||"?"||"!").length.count
   end
 
-    return y
-  end
 
 
 end
