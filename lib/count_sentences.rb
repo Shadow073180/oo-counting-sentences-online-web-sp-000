@@ -30,6 +30,6 @@ class String
     array = []
     self.split("."||"?"||"!")
 
-      end
+
   end
 end
