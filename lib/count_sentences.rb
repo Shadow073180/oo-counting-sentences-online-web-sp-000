@@ -29,7 +29,7 @@ class String
   def count_sentences
     one = self.count(".")
     two = self.count("?")
-    
+
     self.split("."||"?"||"!").length
     self.count("."||"?"||"!")
     return one+two
