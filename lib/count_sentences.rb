@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     self.count("."||"?"||"!")
+    binding pry
     self.split("."||"?"||"!").length
 
 
